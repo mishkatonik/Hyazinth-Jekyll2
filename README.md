@@ -1,4 +1,23 @@
-# WhatATheme
+
+# Jews of the Diaspora
+
+**JofD** is an anti-zionist Jewish community-building organization based in the SF Bay Area. 
+
+## How to Install
+### System Requirements
+* [Ruby](https://www.ruby-lang.org/en/)
+* [Jekyll](https://jekyllrb.com/)
+### Up and Running
+* Fork the [Repository](https://github.com/mishkatonik/Hyazinth-Jekyll2/)
+  * Click the link above and find the "Fork" button at top right.
+* Clone or download the repository into directory of your choice
+  * Navigate to the folder you want the site to live in (running the following command will create a new folder at that location named *Hyazinth-Jekyll2*).
+  * Open your terminal at this location and copy-paste or type: `git clone https://github.com/mishkatonik/Hyazinth-Jekyll2.git`
+* Navigate to the newly-created folder and run `bundle install` in your terminal.
+  * This will install all the plugins required that are listed in the Gemfile.
+* Host the site locally by running `bundle exec jekyll serve --livereload` in the terminal.
+
+<!-- # WhatATheme
 **WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
 
 #### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
@@ -48,6 +67,6 @@
 ### Credits :bulb:
 * [Sneha Omer](http://sassyecoder.github.io/)
 * [Harsh Trivedi](http://harsh98trivedi.github.io/)
-
+ -->
 ### License
-The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
+This site was built using WhatATheme. Its contents are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE). Support the creator [**here**](https://thedevslot.github.io_).
