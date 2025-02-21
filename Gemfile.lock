@@ -71,6 +71,7 @@ GEM
       sinatra-contrib (~> 1.4)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-regex-replace (1.1.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
     jekyll-watch (2.2.1)
@@ -86,6 +87,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     multi_json (1.15.0)
+    obfuscate_email (0.0.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
@@ -186,6 +188,8 @@ DEPENDENCIES
   jekyll
   jekyll-admin (= 0.9.0)
   jekyll-feed
+  jekyll-regex-replace
+  obfuscate_email
   rack
   tzinfo (~> 1.2)
   tzinfo-data
