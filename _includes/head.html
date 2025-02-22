@@ -6,7 +6,7 @@
   <script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous"></script>
   <link
     rel="shortcut icon"
-    href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/logo.png' | absolute_url }}{% endif %}"
+    href="{% if site.favicon-url %}{{site.favicon-url | absolute_url }}{% endif %}"
     type="image/x-icon">
   <script>
     (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])

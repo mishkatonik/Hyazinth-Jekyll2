@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: ""
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl:
 
 # Title of the Site
 title: Jews of the Diaspora
@@ -15,7 +15,7 @@ site-image: assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Jews, Jewish, Anti-Zionist, GatherBay
 # URL for the Image of custom Favicon
-favicon-url: assets/images/hamsa-9115778_640.png
+favicon-url: /assets/images/hamsa-9115778_640.png
 
 # URL of the Image of Cover Hero Image (i.e., the image in the background of the very first section of the Homepage)
 leavesimage: ../images/bg-leaves-6975462_1920.png
@@ -25,11 +25,10 @@ leavesimage: ../images/bg-leaves-6975462_1920.png
 email: 1hyazinthus@gmail.com
 # facebook_username: thedevslot
 # twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
+# instagram_username: thedevslot
+# linkedin_username: thedevslot
 # github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-
+# youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
 
 # Google Analytics
 google-analytics: UA-163806439-1
@@ -42,9 +41,9 @@ author-name: Hyazinth B.
 # URL for the Image of the Author
 author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: Hyazinth is a multidiscplinary artist and upcoming event producer in the Bay Area that specializes in drag and mystic tomfoolery. You can often see them romping around as their drag persona Dionysus the Sphinx and spreading queer nonbinary joy.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/mishkatonik
+author-url: https://hyazinths.com/
 
 # SASS
 sass:
@@ -65,18 +64,16 @@ compress_html:
 
 # Defaults
 defaults:
-  -
-    scope:
-      type: 'posts'
+  - scope:
+      type: "posts"
     values:
       layout: post
       post-image: ""
       description: ""
       tags:
         - ""
-  -
-    scope:
-      type: 'pages'
+  - scope:
+      type: "pages"
     values:
       layout: page
 
