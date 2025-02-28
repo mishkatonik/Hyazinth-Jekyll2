@@ -15,28 +15,49 @@ layout: compress
     {% include footer.html %}
   </body>
   <script>
-      var navItems = document.getElementsByClassName('navbar-item');
-      var heroes = document.getElementsByClassName('hero');
-      const viewOffset = 200; 
-    
-      window.addEventListener("scroll", function (event) {
-    var scroll = this.scrollY;
-    var position = window.pageYOffset;
-    
-    for (var i = 0; i < navItems.length; i++) {
-      navItems[i].classList.remove('is-active');
-    }
-    
-    for (var i = 0; i < heroes.length; i++) {
-        var sectionTop = heroes[i].offsetTop-viewOffset;
-        var sectionBottom = heroes[i].offsetTop + heroes[i].offsetHeight-viewOffset;
-    
-        if (scroll >= sectionTop && scroll < sectionBottom) {
-          navItems[i+1].classList.add('is-active');
+    var navItems = document.getElementsByClassName('navbar-item');
+    var heroes = document.getElementsByClassName('hero');
+    const viewOffset = 200; 
+      
+    window.addEventListener("scroll", function (event) {
+      var scroll = this.scrollY;
+      var position = window.pageYOffset;
+      
+      for (var i = 0; i < navItems.length; i++) {
+        navItems[i].classList.remove('is-active');
       }
-    }
-      });
+      
+      for (var i = 0; i < heroes.length; i++) {
+          var sectionTop = heroes[i].offsetTop-viewOffset;
+          var sectionBottom = heroes[i].offsetTop + heroes[i].offsetHeight-viewOffset;
+      
+          if (scroll >= sectionTop && scroll < sectionBottom) {
+            navItems[i+1].classList.add('is-active');
+          }
+      }
+      // console.log('---- SCROLLLLED! ----');
+    });
   </script>
+  {% comment %} 
+       <script>
+            // Mailerlite Dialog --------------------------------------
+            var dialog = document.querySelector("#mlDialog");
+            var showButton = document.querySelector("#showDialog");
+            var closeButton = document.querySelector("#closeDialog");
+        
+            // "Show the dialog" button opens the dialog modally
+            showButton.addEventListener("click", () => {
+              console.log('SHOW IT TO ME!');  
+              dialog.showModal();
+              console.log('--- Shown ---');
+            });
+        
+            // "Close" button closes the dialog without submitting
+            closeButton.addEventListener("click", () => {
+              dialog.close();
+            });
+        </script> 
+    {% endcomment %}
 
   {% comment %} MAILERLITE FORM SUBMIT {% endcomment %}
   <script>
