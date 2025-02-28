@@ -14,9 +14,12 @@ description: An anti-zionist Jewish space for learning and organizing.
 site-image: assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Jews, Jewish, Anti-Zionist, GatherBay
+
+# About the Site (longer description, mission etc.)
+site-about:
+
 # URL for the Image of custom Favicon
 favicon-url: /assets/images/hamsa-9115778_640.png
-
 # URL of the Image of Cover Hero Image (i.e., the image in the background of the very first section of the Homepage)
 leavesimage: ../images/bg-leaves-6975462_1920.png
 
