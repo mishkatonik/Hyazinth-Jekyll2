@@ -370,7 +370,7 @@ a.navbar-item.is-active {
   }
 }
 
-/* .bmc-button {
+ .bmc-button {
   display: inline-block;
   outline: 0;
   border: 0;
@@ -386,7 +386,7 @@ a.navbar-item.is-active {
   text-shadow: 0 1px 0 rgba(0 0 0 / 40%);
   transition: box-shadow 0.15s ease,transform 0.15s ease;
   &:hover {
-      box-shadow: 0px 4px 8px rgba(45 35 66 / 40%), 0px 7px 13px -3px rgba(45 35 66 / 30%), inset 0px -3px 0px rgba(60, 224, 175);
+      box-shadow: 0px 4px 8px rgba(45 35 66 / 40%), 0px 7px 13px -3px rgba(45 35 66 / 30%), inset 0px -3px 0px #043815;
       transform: translateY(-2px);
   }
   :active {
@@ -411,14 +411,14 @@ a.navbar-item.is-active {
   text-shadow: 0 1px 0 rgba(0 0 0 / 40%);
   transition: box-shadow 0.15s ease,transform 0.15s ease;
   &:hover {
-      box-shadow: 0px 4px 8px rgba(45 35 66 / 40%), 0px 7px 13px -3px rgba(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+      box-shadow: 0px 4px 8px rgba(45 35 66 / 40%), 0px 7px 13px -3px rgba(45 35 66 / 30%), inset 0px -3px 0px #16227d;
       transform: translateY(-2px);
   }
   :active {
       box-shadow: inset 0px 3px 7px #3c4fe0;
       transform: translateY(2px);
   }
-} */
+}
 
 /* ************ MAILERLITE FORM ************ */
 .ml-form-embedSubmitLoad {

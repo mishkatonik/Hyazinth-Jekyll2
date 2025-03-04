@@ -2,24 +2,17 @@
     <div class="hero-body">
         <div class="container">
             <div class="columns">
-                {% comment %} <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
-                    <figure class="image">
-                        <img class="is-rounded" src="{{site.author-image}}" alt="{{site.author-name}}">
-                    </figure>
-                </div> {% endcomment %}
                 <div class="column has-text-center-desktop has-text-center-tablet has-text-center-fullhd has-text-center-widescreen">
-                    <p>{{site.description}} {{site.description}} {{site.description}} {{site.description}} {{site.description}} {{site.description}} {{site.description}}</p>
+                    <p>{{site.description}}</p>
                     <br>
                     <div class="container columns is-centered">
                         <div>
                             {% include bmc-button.html %}
                         </div>
                         <div>
-                            {% comment %} <a class="ml-onclick-form" href="javascript:void(0)" onclick="ml('show', '97c8ea', true)">Join the Listserv!</a> {% endcomment %}
-                            <dialog id="mlDialog" close>
-                                {% include mailerlite-form.html %}
-                            </dialog>
-                            <button id="showDialog">Join the Newsletter!</button>
+                            <a class="ml-onclick-form" href="javascript:void(0)" onclick="ml('show', '97c8ea', true)">
+                                <button class="listserv-button">Join the Newsletter!</button>
+                            </a>
                         </div>
                     </div>
                 </div>
