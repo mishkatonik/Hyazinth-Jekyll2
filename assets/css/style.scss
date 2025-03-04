@@ -38,7 +38,7 @@ a.navbar-item.is-active {
 }
 
 #hero {
-  background: rgba(0, 0, 0);
+  background: rgb(0, 0, 0);
   background: -moz-linear-gradient(
     0deg,
     rgba(0, 0, 0, 1) 0%,
@@ -124,7 +124,6 @@ a.navbar-item.is-active {
 
   .container {
     margin: 1.5rem auto;
-    justify-content: center;
   }
 
   #blog-card {
@@ -371,7 +370,7 @@ a.navbar-item.is-active {
   }
 }
 
-.bmc-button {
+/* .bmc-button {
   display: inline-block;
   outline: 0;
   border: 0;
@@ -419,7 +418,7 @@ a.navbar-item.is-active {
       box-shadow: inset 0px 3px 7px #3c4fe0;
       transform: translateY(2px);
   }
-}
+} */
 
 /* ************ MAILERLITE FORM ************ */
 .ml-form-embedSubmitLoad {
