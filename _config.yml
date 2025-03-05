@@ -2,9 +2,17 @@
 markdown: kramdown
 
 # URL of the Site
-url: ""
+url: "www.jewsofthediaspora.org"
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl:
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# URL for the Image of custom Favicon
+favicon-url: assets/images/hamsa-9115778_640.png
+# URL of the Image of Cover Hero Image (i.e., the image in the background of the very first section of the Homepage)
+leavesimage: ../images/bg-leaves-6975462_1920.png
 
 # Title of the Site
 title: Jews of the Diaspora
@@ -12,32 +20,15 @@ title: Jews of the Diaspora
 description: Creating and uplifting anti-zionist Jewish ritual events in the Bay Area.
 # URL of Image of the Site
 site-image: assets/images/meta.jpg
-# Keywords of the Site
-site-keywords: Jews, Jewish, Anti-Zionist, GatherBay
+# Keywords of the Site for Google search results
+site-keywords: Jews, Jewish, Anti-Zionist, GatherBay, Bay Area, Jewish Ritual, Jewish Events
 
 # About the Site (longer description, mission etc.)
 site-about: Jews of the Diaspora intends to cultivate community for ritual-loving anti-zionist Jews, friends and comrades reclaiming their heritage for a better world. Join the newsletter to receive monthly updates on anti-zionist Jewish ritual events happening in the Bay Area, or consider donating to support our mission.
 
-# URL for the Image of custom Favicon
-favicon-url: assets/images/hamsa-9115778_640.png
-# URL of the Image of Cover Hero Image (i.e., the image in the background of the very first section of the Homepage)
-leavesimage: ../images/bg-leaves-6975462_1920.png
-
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: 1hyazinthus@gmail.com
-# facebook_username: thedevslot
-# twitter_username: thedevslot
-# instagram_username: thedevslot
-# linkedin_username: thedevslot
-# github_username:  thedevslot
-# youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-
-# Google Analytics
-google-analytics: UA-163806439-1
-
-# Disqus
-# disqus-shortname: thedevslot
 
 # Name of the Author
 author-name: Hyazinth B.
