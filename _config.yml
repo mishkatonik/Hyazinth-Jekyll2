@@ -9,14 +9,14 @@ baseurl:
 # Title of the Site
 title: Jews of the Diaspora
 # Description of the Site
-description: An anti-zionist Jewish space for learning and organizing.
+description: Creating and uplifting anti-zionist Jewish ritual events in the Bay Area.
 # URL of Image of the Site
 site-image: assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Jews, Jewish, Anti-Zionist, GatherBay
 
 # About the Site (longer description, mission etc.)
-site-about:
+site-about: Jews of the Diaspora intends to cultivate community for ritual-loving anti-zionist Jews, friends and comrades reclaiming their heritage for a better world. Join the newsletter to receive monthly updates on anti-zionist Jewish ritual events happening in the Bay Area, or consider donating to support our mission.
 
 # URL for the Image of custom Favicon
 favicon-url: assets/images/hamsa-9115778_640.png
@@ -44,7 +44,7 @@ author-name: Hyazinth B.
 # URL for the Image of the Author
 author-image: assets/images/hyazinth-headshot.png
 # 60 Words About the Author
-author-about: Hyazinth is a multidiscplinary artist and upcoming event producer in the Bay Area that specializes in drag and mystic tomfoolery. You can often see them romping around as their drag persona Dionysus the Sphinx and spreading queer nonbinary joy.
+author-about: Hyazinth is a ritual organizer and performance artist currently residing in the Bay Area.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://hyazinths.com/
 
