@@ -93,6 +93,10 @@ a.navbar-item.is-active {
     min-width: 25vmax;
     margin: 0.5rem;
   }
+
+  .container {
+    max-width: 1000px;
+  }
 }
 
 #contact {
@@ -370,7 +374,42 @@ a.navbar-item.is-active {
   }
 }
 
- .bmc-button {
+.bmc-button {
+  background-color: #12ccc6 !important;
+  /* border: none !important; */
+  border-color: #000000 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  color: #000000 !important;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 21px !important;
+  height: auto;
+  padding: 10px !important;
+  width: 75% !important;
+  box-sizing: border-box !important;
+}
+
+.listserv-button {
+  background-color: #000000 !important;
+  border: none !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 21px !important;
+  height: auto;
+  padding: 10px !important;
+  width: 75% !important;
+  box-sizing: border-box !important;
+}
+
+/* .bmc-button {
   display: inline-block;
   outline: 0;
   border: 0;
@@ -394,7 +433,6 @@ a.navbar-item.is-active {
       transform: translateY(2px);
   }
 }
-
 .listserv-button {
   display: inline-block;
   outline: 0;
@@ -418,7 +456,7 @@ a.navbar-item.is-active {
       box-shadow: inset 0px 3px 7px #3c4fe0;
       transform: translateY(2px);
   }
-}
+} */
 
 /* ************ MAILERLITE FORM ************ */
 .ml-form-embedSubmitLoad {
