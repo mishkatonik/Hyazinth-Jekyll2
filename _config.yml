@@ -10,9 +10,9 @@ baseurl:
 google-analytics: UA-163806439-1
 
 # URL for the Image of custom Favicon
-favicon-url: assets/images/hamsa-9115778_640.png
+favicon-url: /assets/images/hamsa-9115778_640.png
 # URL of the Image of Cover Hero Image (i.e., the image in the background of the very first section of the Homepage)
-leavesimage: ../images/bg-leaves-6975462_1920.png
+leavesimage: /assets/images/bg-leaves-6975462_1920.png
 
 # Title of the Site
 title: Jews of the Diaspora
